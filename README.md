@@ -32,7 +32,7 @@ gcc -o bsq src/main.c src/ft_process.c src/ft_bsq.c -I includes
 ```
 Make sure to adjust the paths based on your project's directory structure.
 
-##🛠️ Usage
+## 🛠️ Usage
 
 To run the program, you can either provide map files as arguments or read from standard input:
 📂 From Files
@@ -53,7 +53,7 @@ You can also run the program without arguments and input the map data directly:
 
 ```
 Then enter the map data and end with EOF (Ctrl+D in Unix/Linux or Ctrl+Z in Windows).
-##🗺️ Map Format
+🗺️ Map Format
 
 The input maps must follow this structure:
 
@@ -64,7 +64,7 @@ The input maps must follow this structure:
         Obstacles (e.g., o or other defined characters)
         Full squares (e.g., x or other defined characters)
 
-##📊 Example Map
+📊 Example Map
 
 ```bash
 
@@ -77,7 +77,7 @@ The input maps must follow this structure:
 
 ```
 
-##⚠️ Error Handling
+## ⚠️ Error Handling
 
 The program includes basic error handling, such as:
 
@@ -86,10 +86,10 @@ The program includes basic error handling, such as:
     🚫 No empty space available for placing a square.
 
 Error messages will be printed to the standard output.
-##🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request.
 
-##📜 License
+## 📜 License
 
 This project is free to use and distribute.
